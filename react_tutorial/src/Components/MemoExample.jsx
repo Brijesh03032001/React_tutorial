@@ -1,6 +1,6 @@
 import { memo, useState } from 'react';
 
-const EmployeeProfile = memo(function MemoExample({ name, email }) {
+const EmployProfile = memo(function MemoExample({ name, email }) {
   return (<>
         <p>Name:{name}</p>
         <p>Email: {email}</p>
